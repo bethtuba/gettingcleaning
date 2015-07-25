@@ -12,14 +12,7 @@ if("reshape2" %in% installed.packages()) {
   library(reshape2)
 }
 
-##Create a folder for this script called "gettingcleaningproject"
-if(!dir.exists("./gettingcleaningproject")) {
-  dir.create("./gettingcleaningproject")
-}
-setwd("./gettingcleaningproject")
-
 ###Download the data & extract it
-download.file("https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip", destfile = "./rawdata.zip")
 unzip("rawdata.zip")
 ###Data extracts into folder "./UCI HAR Dataset"
 setwd("./UCI HAR Dataset")
