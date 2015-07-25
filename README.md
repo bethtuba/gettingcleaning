@@ -18,4 +18,4 @@ After executing, you will have two new data.frames in your environment:
 	* The means of each measurement by the activity performed.
 
 ##Code Book
-Please see "features_info.txt" for information about the materials.
+Please see "codebook.md" for information about the materials.
