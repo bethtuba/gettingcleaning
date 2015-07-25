@@ -12,10 +12,10 @@ This script requires the dplyr and reshape2 changes. The script will automatical
 ##Results
 After executing, you will have two new data.frames in your environment:
 * tidyData
-** The tidy data set described in the introduction.
-**Please note that this data.frame is also a tbl_df object (see dplyr for more information)
+	* The tidy data set described in the introduction.
+	*Please note that this data.frame is also a tbl_df object (see dplyr for more information)
 * averagesData
-** The means of each measurement by the activity performed.
+	* The means of each measurement by the activity performed.
 
 ##Code Book
 Please see "features_info.txt" for information about the materials.
